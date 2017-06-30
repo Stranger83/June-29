@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractEmails", "ExtractEma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractSentencesByKeyword", "ExtractSentencesByKeyword\ExtractSentencesByKeyword.csproj", "{C1C881F4-3548-446C-A483-07732F6BCE42}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weather", "Weather\Weather.csproj", "{8CBB9A8C-A51D-46BF-BDB1-DC06ECD8FF8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C1C881F4-3548-446C-A483-07732F6BCE42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1C881F4-3548-446C-A483-07732F6BCE42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1C881F4-3548-446C-A483-07732F6BCE42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CBB9A8C-A51D-46BF-BDB1-DC06ECD8FF8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CBB9A8C-A51D-46BF-BDB1-DC06ECD8FF8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CBB9A8C-A51D-46BF-BDB1-DC06ECD8FF8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CBB9A8C-A51D-46BF-BDB1-DC06ECD8FF8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
