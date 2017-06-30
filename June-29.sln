@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractEmails", "ExtractEmails\ExtractEmails.csproj", "{E93CCC49-AB98-48AF-A7EE-4E528CBCC7A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractSentencesByKeyword", "ExtractSentencesByKeyword\ExtractSentencesByKeyword.csproj", "{C1C881F4-3548-446C-A483-07732F6BCE42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E93CCC49-AB98-48AF-A7EE-4E528CBCC7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E93CCC49-AB98-48AF-A7EE-4E528CBCC7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E93CCC49-AB98-48AF-A7EE-4E528CBCC7A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1C881F4-3548-446C-A483-07732F6BCE42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1C881F4-3548-446C-A483-07732F6BCE42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1C881F4-3548-446C-A483-07732F6BCE42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1C881F4-3548-446C-A483-07732F6BCE42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

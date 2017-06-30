@@ -5,19 +5,20 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace ExtractEmails
+namespace ExtractSentencesByKeyword
 {
 	class Program
 	{
 		static void Main(string[] args)
 		{
+			var keyword = Console.ReadLine();
 			var input = Console.ReadLine();
-			var pattern = @"(^|\s)[A-Za-z0-9]+[.\-_]*[A-Za-z0-9]+@[a-z-]+(\.[a-z]+)+";
+			var pattern = @"[^!?.]*\b" + keyword + @"\b[^!?.]*";
 			var matches = Regex.Matches(input, pattern);
-			foreach (Match m in matches)
-			{
-				Console.WriteLine(m.Value);
-			}
+			var results = matches.Cast<Match>()
+				.Select(m => m.Value.Trim())
+				.ToArray();
+			Console.WriteLine(string.Join("\r\n", results));
 		}
 	}
 }
